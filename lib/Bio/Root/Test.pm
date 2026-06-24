@@ -150,6 +150,12 @@ Chris Fields
 
 our @EXPORT = (
     @Test::Most::EXPORT,
+    @Test::More::EXPORT,
+    @Test::Exception::EXPORT,
+    @Test::Warn::EXPORT,
+    @Test::Deep::EXPORT,
+    @Test::Diff::EXPORT,
+    @Test::Differences::EXPORT,
 
     #@Bio::Root::Test::Warn::EXPORT,
     # Test::Warn method wrappers
